@@ -3,7 +3,7 @@ services:
   sriciapp:
    image: sriimagecapp
    build: .
-   container_name: ['sriciappc1']
+   container_name: sriciappc1
    ports:
       - "2345:80"
    restart: "always"
