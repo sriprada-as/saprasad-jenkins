@@ -1,4 +1,6 @@
 version: '3.8'
+networks: # to create a custom bridge
+  sribr0: 
 services:
   sriciapp:
    image: sriimagecapp
@@ -8,4 +10,4 @@ services:
       - "2345:80"
    restart: "always"
    networks: 
-      - ashubr111
+      - sribr0
