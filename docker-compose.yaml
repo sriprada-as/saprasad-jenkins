@@ -1,11 +1,11 @@
 version: '3.8'
 services:
   sriciapp:
-  image: sriimagecapp
-  build: .
-  container_name: [sriciappc1]
-  ports:
-    - "2345:80"
-  restart: "always"
-  networks: 
-    - ashubr111
+   image: sriimagecapp
+   build: .
+   container_name: [sriciappc1]
+   ports:
+      - "2345:80"
+   restart: "always"
+   networks: 
+      - ashubr111
