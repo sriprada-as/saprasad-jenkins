@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+    sriappfinal:
+      image: sricustomer:v1
+      build: .
+      container_name: sriC1
+      ports:
+        - "1256:80"
+      restart: always
+      environment:
+        deploy: "app2"
